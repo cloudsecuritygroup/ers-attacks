@@ -50,6 +50,7 @@ scons
 ```
 
 where N1 and N2 are the domain side sizes and p is the percentage of responses to the queried (uniformly at random). 
+
 e.g. `./attack 10 10 40`
 
 For most scheme implementations we use: https://github.com/cloudsecuritygroup/ers
