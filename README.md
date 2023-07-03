@@ -35,7 +35,7 @@ For each of these datasets, we sample the points and generate smaller 2D version
 
 * The **Token Pair**, **Range-BRC**, and **SRC** attacks can be run using:
 ```
-python -m attacks.attack [TokPair|RangeURC|SRC] [path_to_dataset] [path_to_output]
+python -m attacks.attack [TokPair|RangeBRC|SRC] [path_to_dataset] [path_to_output]
 ```
 where`path_to_output` is a path to where the output of the script should go to and `path_to_dataset` is a path to one of the datasets in `data/`, e.g. 
 `
