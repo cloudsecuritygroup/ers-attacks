@@ -25,9 +25,9 @@ This repository contains implementations of the four attacks from our paper:
 Each of our attacks can be tested on the following three datasets. 
 
 * **Gowalla**: A 4D dataset consisting of $6,442,892$ latitude-longitude points of check-ins 
- from users of the  Gowalla social networking website  between  2009 and 2010. 
-* **Spitz**:  A 2D dataset of $28,837$ latitude-longitude points of phone location data of politician Malte Spitz from Aug 2009 to Feb 2010.
-* **Cali**: A 2D dataset of $21,047$ latitude-longitude points of road network intersections in California.
+ from users of the  Gowalla social networking website  between  2009 and 2010.  (https://snap.stanford.edu/data/loc-gowalla.html)
+* **Spitz**:  A 2D dataset of $28,837$ latitude-longitude points of phone location data of politician Malte Spitz from Aug 2009 to Feb 2010. (https://crawdad.org/spitz/cellular/20110504)
+* **Cali**: A 2D dataset of $21,047$ latitude-longitude points of road network intersections in California. (https://users.cs.utah.edu/~lifeifei/SpatialDataset.htm)
 
 For each of these datasets, we sample the points and generate smaller 2D versions of the originals. These datasets can be found in the `data` directory.
 
