@@ -7,7 +7,7 @@ This is the associated artifact for the paper "Attacks on Encrypted Response-Hid
 ## Dependencies 
 
 Our schemes assume prior installation of Python 3.9.0 or above which can be installed from [here](https://www.python.org/downloads/source/).
-The `requirements.txt` file in the main directory contains a list of all the necessary dependencies for running our schemes and reproducing our experiments; these dependencies can be installed using the `pip3` command.
+The `requirements.txt` file in the main directory contains a list of all the necessary dependencies for running our schemes and reproducing our experiments; these dependencies can be installed using the `pip3` command. The dependencies include multiple packages, like numpy, ortools, cryptography and matplotlib.
 
 ## Detailed Usage
 
@@ -42,7 +42,7 @@ where`path_to_output` is a path to where the output of the script should go to a
 python -m attacks.attack TokPair data/cali-8x8.pickle
 `
 
-* Our **Linear** attack is in the folder `linear-attack/` and can be run as follows:
+* Our **Linear** attack requires C++ and is in the folder `linear-attack/`. It requires installation of scons (https://scons.org/) and can be run as follows:
 
 ```
 scons 
